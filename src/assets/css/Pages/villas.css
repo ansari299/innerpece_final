@@ -1,0 +1,113 @@
+.sidebar {
+    padding: 5%;
+}
+
+.filter-box {
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+}
+
+.navigation-bar {
+    display: flex;
+    background-color: #9A9AB0;
+    color: #0F5B92;
+    font-weight: 500;
+    border-radius: 5px;
+    width: fit-content;
+    padding-inline: 5%;
+    font-size: 14px;
+}
+
+.font21 {
+    /* font-size: clamp(50px, 60vw, 10px); */
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.subtitle {
+    font-weight: 600;
+}
+
+.resetbtn {
+    border: 2px solid #E1E1E1;
+    border-radius: 5px;
+    padding-inline: 5%;
+    padding-block: 2%;
+    color: #9A9AB0;
+}
+
+.label {
+    background-color: #E1E1E1;
+    padding: 1%;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.input {
+    border: 1px solid #E1E1E1;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.inputs {
+    width: 65%;
+    border: 1px solid #E1E1E1;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.page-title {
+    font-weight: 700;
+}
+
+.loved-btn {
+    border: 1px solid #E1E1E1;
+    padding-inline: 1%;
+    border-radius: 1%;
+}
+
+.villa-img {
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.icon {
+    width: 2rem;
+    border: 1px solid #E1E1E1;
+    padding: 5%;
+    border-radius: 50%;
+}
+
+.small-text {
+    font-size: 10px;
+    line-height: 12px;
+    color: #989898;
+    font-weight: 500;
+}
+
+.view-btn {
+    background-color: #0F5B92;
+    color: #fff;
+    padding-inline: 8%;
+    padding-block: 2%;
+    border-radius: 5px;
+}
+
+.border {
+    border-radius: 15px;
+    border: 1px solid #858585; /* You can change the color and thickness as needed */
+}
+
+.price-text {
+    color: #2D2D2D;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.price {
+    line-height: 2rem;
+}   
+
+.col-4-text {
+    font-size: 0.7rem;
+    color: #858585;
+}

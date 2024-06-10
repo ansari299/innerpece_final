@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins'!important;
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50rem;
+    object-fit: cover;
+  }
+  
+  .contactcard {
+    background-color: #fff;
+    text-align: center;
+    border-radius: 28px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    border-radius: 50px;
+    padding: 10px;
+    border: 1px solid rgb(219, 218, 218);
+  }
+  
+  .h2 {
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+  }
+  
+  .request-btn {
+    background-color: #005417;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .inputarea {
+    font-family: "Poppins";
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #989898;
+    border-radius: 5px;
+    margin-top: 1.2rem;
+    position: relative;
+  }
+  
+  .para {
+    font-family: "Poppins";
+    color: #000;
+    font-weight: 600;
+  }
+  
+  .text {
+    font-family: "Poppins";
+    font-size: 14px;
+    color: #000;
+  }
+
+  .flatpickr {
+    position: relative;
+    display: inline-block;
+  }
+
+  .calenderImg {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    cursor: pointer;
+  }
+
+  .inputarea::placeholder {
+    color: #999!important; /* Change to your desired color */
+  }
+  
+  /* .custom-checkbox {
+    
+  } */
+  
+  .grey-text {
+    font-family: "Poppins";
+    color: #989898;
+    font-size: 14px;
+  }
+  
+  .pl {
+    padding-left: 1.5rem!important;
+  }
+  
+  .blueTxt {
+    color: #0F5B92;
+  }
+  
+  .imgBox {
+    margin-block: 1rem;
+  }
+  .marginBox {
+    margin-top: 7rem;
+  }
+
+@media (max-width: 992px) {
+  .h2  {
+      font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .h2  {
+      font-size: 25px;
+  }
+  .background-image  {
+      height: 70rem;
+  }
+  .marginBox {
+    margin-top: 4rem;
+  }
+}

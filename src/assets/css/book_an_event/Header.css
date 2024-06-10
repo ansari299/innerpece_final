@@ -1,0 +1,95 @@
+/* Navbar.css */
+.navbar {
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 99;
+    padding: 10px 0;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+    backdrop-filter: blur(10px); /* Apply blur effect */
+    transition: background-color 0.3s ease; /* Add smooth transition */
+  }
+  
+  .navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 2px -2px gray;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .content {
+    margin-top: 26px; /* Adjust based on your navbar height */
+  }
+  
+  
+
+.navbar.white-bg {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* .nav-link.color-font {
+    color: #000!important; 
+} */
+
+.container {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-book-event {
+    background-color: #DBF056;
+    color: #005417!important;
+    border-radius: 1rem;
+    text-decoration: none;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+}
+
+.bg-dark {
+    background-color: #00619F!important;
+}
+
+.navbar-links {
+    display: flex;
+    margin-right: 10rem; /* Adjust margin to add space between navigation items */
+}
+
+.navbar-links a {
+    text-decoration: none;
+    padding-right: 3rem; /* Adjust margin between individual links */
+}
+
+.navbar-nav .nav-item .nav-link,
+.navbar-nav .nav-item .btn-contact-us {
+    color: #fff;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: rgba(0, 179, 244, 1); /* Hover background color */
+}
+
+.navbar-nav .nav-item .btn-contact-us:hover {
+    background-color: rgba(0, 179, 244, 1); 
+    color: white !important;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+      width: 100%;
+    }
+    .navbar-nav {
+        gap: 1rem;
+    }
+  }
+
+@media (max-width: 768px) {
+    .navbar {
+      width: 100%;
+    }
+    .navbar-nav {
+        gap: 0rem!important;
+    }
+  }

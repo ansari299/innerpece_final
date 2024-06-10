@@ -1,0 +1,136 @@
+.blueTxt {
+  font-family: Poppins;
+  font-weight: 700;
+  color: #00619F;
+  font-size: 40px;
+  text-align: center;
+  margin-block: 3rem;
+}
+
+.chevron {
+  font-size: 2rem;
+  color: aliceblue;
+  animation: glow 1.5s infinite alternate;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 1)!important;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+  }
+  to {
+    text-shadow: 0 0 50px rgba(255, 255, 255, 1);
+  }
+}
+
+.custom-arrow {
+  background: none;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 50%;
+  z-index: 10;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5), 
+              0 0 30px rgba(255, 255, 255, 0.3), 
+              0 0 45px rgba(255, 255, 255, 0.1); /* Adjust the values to create the glow effect */
+  transition: box-shadow 0.3s ease-in-out; 
+}
+
+.custom-arrow:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 
+              0 0 40px rgba(255, 255, 255, 0.5), 
+              0 0 60px rgba(255, 255, 255, 0.3); /* Stronger glow on hover */
+}
+
+.custom-prev {
+  border: 2px solid white;
+  border-radius: 36px;
+  position: absolute;
+  top: 50%;
+  left: 7rem;
+  z-index: 10;
+  transform: translateY(-50%);
+  box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.8), 0 0 5px 3px rgba(255, 255, 255, 0.8) inset; /* Adjust the values as needed */
+}
+
+.custom-next {
+  border: 2px solid white;
+  border-radius: 36px;
+  position: absolute;
+  top: 50%;
+  right: 7rem;
+  z-index: 10;
+  transform: translateY(-50%);
+  box-shadow: 0 0 5px 3px rgba(255, 255, 255, 0.8), 0 0 5px 3px rgba(255, 255, 255, 0.8) inset; /* Adjust the values as needed */
+}
+
+.carousel-container {
+  position: relative;
+}
+
+.carousel-banner {
+  position: absolute;
+  top: 8%;
+  left: 24%;
+  text-align: center;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-banner-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.carousel-banner-text {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 900px) {
+  .chevron {
+    font-size: 1.5rem;
+  }
+  .carousel-banner {
+    top: 1%;
+    left: 1%;
+    width: 10rem;
+    height: 100%;
+    padding: 0.5rem;
+  }
+  .custom-next {
+    right: 2rem;
+  }
+  .custom-prev {
+    left: 2rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .chevron {
+    font-size: 1.5rem;
+  }
+  .carousel-banner {
+    top: 1%;
+    left: 19%;
+    padding: 0.5rem;
+    width: 15rem;
+    height: 5rem;
+  }
+  .carousel-banner-title {
+    font-size: 0.8rem;
+  }
+  .carousel-banner-text {
+    font-size: 0.7rem;
+  }
+  .custom-next {
+    right: 2rem;
+    border-radius: none;
+  }
+  .custom-prev {
+    left: 2rem;
+    border-radius: none;
+  }
+}

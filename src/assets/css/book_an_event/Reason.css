@@ -1,0 +1,28 @@
+.eventImg {
+    width: 100%;
+}
+
+.getInTouchBtn {
+    margin-block: 3rem;
+    color: #fff;
+    padding-inline: 2rem;
+    background-color: #0F5B92;
+    border-radius: 26px;
+}
+
+@media (max-width: 992px) {
+    .eventImg {
+        width: 100%!important;
+    }
+  }
+
+@media (max-width: 790px) {
+    .eventImg {
+        width: 100%!important;
+    }
+  }
+@media (max-width: 508px) {
+    .eventImg {
+        width: 100%!important;
+    }
+  }
