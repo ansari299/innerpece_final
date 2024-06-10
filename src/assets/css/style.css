@@ -57,7 +57,7 @@ body {
     padding-left: 20px;
 }
 #bg_1 {
-    background-image: url('../svg/background.gif');
+    /* background-image: url('../svg/background.gif'); */
     /* Adjust the path according to your file structure */
     background-size: cover;
     background-repeat: no-repeat;
